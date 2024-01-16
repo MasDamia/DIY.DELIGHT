@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>About Us</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <style>
+            h2 {
+                padding-bottom: 20px;
+            }
+
+            h3 {
+                padding-bottom: 20px;
+            }
+
+            html {
+                box-sizing: border-box;
+            }
+
+            *, *:before, *:after {
+                box-sizing: inherit;
+            }
+
+            .column {
+                float: left;
+                width: 33.3%;
+                margin-bottom: 16px;
+                padding: 0 8px;
+            }
+
+            .card {
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+                margin: 8px;
+            }
+
+            .container1 {
+                padding: 0 16px;
+            }
+
+            .container1::before,
+            .container1::after,
+            .row::before,
+            .row::after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+
+
+            .title {
+                color: grey;
+            }
+
+            .button {
+                border: none;
+                outline: 0;
+                display: inline-block;
+                padding: 8px;
+                color: black;
+                background-color: #ede6f2;
+                text-align: center;
+                cursor: pointer;
+                width: 100%;
+            }
+
+            .button:hover {
+                background-color: white;
+                transition: 0.3s;
+            }
+
+            .column .card {
+                transition: transform 0.3s ease-in-out; /* Add a default transition for smoothness */
+            }
+
+            .column:hover .card {
+                transform: scale(1.05); /* Adjust the scale factor as needed */
+                transition: transform 0.3s ease-in-out; /* Add a transition for hover in and hover out */
+            }
+
+
+            @media screen and (max-width: 650px) {
+                .column {
+                    width: 100%;
+                    display: block;
+                }
+            }
+
+            #Comment {
+                padding: 30px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="logo-name">
+                <img src="diydelightLOGO.png" alt="logo" width="100">
+                <h1>DIY.DELIGHT</h1>
+            </div>
+            
+        </header>
+
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <ul class="nav navbar-nav">
+                    <li><a href="home.html">Home</a></li>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Birthday<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="birthdaydeco.html">Decorations</a></li>
+                            <li><a href="birthdaygift.html">Gifts</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">National Day<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="nationaldeco.html">Decorations</a></li>
+                            <li><a href="nationalcost.html">Costumes</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="aidilfitri.html">Aidilfitri</a></li>
+                    <li><a href="teachersday.html">Teacher's Day</a></li>
+                    <li class="active"><a href="aboutus.html">About Us</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container">
+            <img src="aboutus.jpg" alt="aboutus.jpg">
+        </div>
+        <div class="container-fluid">
+            <ul id="nav2">
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+            </ul>
+
+            <div id="contents">
+                <div id="aboutus" class="container-fluid text-center">
+                    <h2><strong>About Us</strong></h2><br>
+
+                    <div class="row">
+
+                        <div class="column">
+                            <div class="card">
+                                <br>
+                                <img src="MasDamia.jpg" class="img-circle" alt="Mas Damia" style="width: 200px;">
+                                <div class="container1">
+                                    <h2>Mas Damia</h2>
+                                    <p class="title">S65543</p>
+                                    <p>I am responsible for guiding the team and leading in designing user interfaces of our website.</p>
+                                    <p><a href="mailto:S65543@ocean.umt.edu.my" style="color: black;"><button class="button">Contact</button></a></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="column">
+                            <div class="card">
+                                <br>
+                                <img src="NajwaSyuhada.jpg" class="img-circle" alt="Najwa Syuhada" style="width: 200px;">
+                                <div class="container1">
+                                    <h2>Najwa Syuhada</h2>
+                                    <p class="title">S65780</p>
+                                    <p>I am assigned for finding resources for our website contents.</p>
+                                    <p><a href="mailto:S65780@ocean.umt.edu.my" style="color: black;"><button class="button">Contact</button></a></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="column">
+                            <div class="card">
+                                <br>
+                                <img src="NurulFatihah.jpg" class="img-circle" alt="Nurul Fatihah" style="width: 200px;" >
+                                <div class="container1">
+                                    <h2>Nurul Fatihah</h2>
+                                    <p class="title">S65607</p>
+                                    <p>I receive instructions from the project leader and execute tasks.</p>
+                                    <p><a href="mailto:S65607@ocean.umt.edu.my" style="color: black;"><button class="button">Contact</button></a></p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="container container2">
+            <h2>Give Us Your Feedback!</h2>
+            <form class="form-horizontal" action="/action_page.php">
+                <div class="form-group">
+                    <label for="Email">Email address</label>
+                    <input type="email" class="form-control" id="Email" placeholder="name@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="Name">Name</label>
+                    <input type="Text" class="form-control" id="Name" placeholder="Enter Your Name">
+                </div>
+                <label for="Rate">Rate Our Website</label>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                    <label class="form-check-label" for="inlineRadio1">1</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                    <label class="form-check-label" for="inlineRadio2">2</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                    <label class="form-check-label" for="inlineRadio3">3</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4">
+                    <label class="form-check-label" for="inlineRadio4">4</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio5" value="option5">
+                    <label class="form-check-label" for="inlineRadio5">5</label>
+                </div>
+                <div class="form-group">
+                    <label for="Comment">Comments</label>
+                    <input type="text" class="form-control" id="Comment">
+                </div>
+                <div class="form-group">        
+                        <button type="submit" class="btn btn-default">Submit</button>
+                </div>
+            </form>
+        </div>
+        <footer>
+            <p>2023 &copy; Designed by Mas Damia, Najwa Syuhada, Nurul Fatihah</p>
+        </footer>
+    </body>
+</html>
